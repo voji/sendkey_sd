@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Popup Message Settings</title>
+    <meta charset="utf-8" />
+    <script src="https://sdpi-components.dev/releases/v4/sdpi-components.js"></script>
+</head>
+
+<body>
+    <!--
+        Learn more about property inspector components at https://sdpi-components.dev/docs/components
+    -->
+    <sdpi-item label="SendKey key">
+        <sdpi-textfield setting="hotkey" maxlength="1"></sdpi-textfield>
+    </sdpi-item>
+    <!--
+        Modifier keys are not implemented yet
+    -->
+    <sdpi-item label="Shift">
+        <sdpi-checkbox setting="mod_shift"></sdpi-checkbox>
+    </sdpi-item>
+    <sdpi-item label="Control">
+        <sdpi-checkbox setting="mod_control"></sdpi-checkbox>
+    </sdpi-item>
+    <sdpi-item label="Alt">
+        <sdpi-checkbox setting="mod_alt"></sdpi-checkbox>
+    </sdpi-item>
+    <sdpi-item label="Win">
+        <sdpi-checkbox setting="mod_win"></sdpi-checkbox>
+    </sdpi-item>
+</body>
+
+</html>
